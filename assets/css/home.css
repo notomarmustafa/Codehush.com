@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #111;
+    background-color: #03001e;
 }
 
 nav {
@@ -55,6 +55,29 @@ nav a:hover {
     transition: .1s;
 }
 
+.btn-box button {
+    background: -webkit-linear-gradient(120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%));
+    border: 2px solid hsl(239, 69%, 51%);
+    outline: none;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: 400;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn-box button:hover {
+    border: 2px solid hsl(318, 94%, 61%);
+    transition: 1s;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 .content {
     display: flex;
     justify-content: center;
@@ -77,6 +100,13 @@ nav a:hover {
     font-size: 1.3rem;
     font-weight: 400;
     margin-top: 200px;
+}
+
+.copyright {
+    background: -webkit-linear-gradient(120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 200;
 }
 
 @keyframes float {
