@@ -30,6 +30,12 @@ nav .logo {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.small-logo {
+    font-size: 2rem;
+    background: -webkit-linear-gradient(120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 
 ul {
     text-transform: uppercase;
@@ -120,10 +126,20 @@ nav a:hover {
         transform: translateY(0px);
     }
 }
+
+@media (min-width: 768px) {
+    .small-logo {
+        display: none;
+    }
+}
+
 /* big desktops */
 @media (min-width: 1200px) and (max-width: 1400px) {
     nav {
         gap: 300px;
+    }
+    .small-logo {
+        display: none;
     }
     .content {
         gap: 300px;
@@ -135,6 +151,9 @@ nav a:hover {
     nav {
         gap: 250px;
     }
+    .small-logo {
+        display: none;
+    }
     .content {
         gap: 250px;
     }
@@ -144,6 +163,9 @@ nav a:hover {
   @media (max-width: 991px) {
     nav {
         gap: 200px;
+    }
+    .small-logo {
+        display: none;
     }
     .content {
         gap: 150px;
@@ -158,6 +180,9 @@ nav a:hover {
     nav {
         gap: 100px;
     }
+    .small-logo {
+        display: none;
+    }
     .content {
         gap: 50px;
     }
@@ -168,26 +193,28 @@ nav a:hover {
   
   /* mobile or only mobile */
   @media (max-width: 767px) {
+    .small-logo {
+        margin-top: 5cqh;
+        display: block;
+    }
     nav {
-        gap: 100px;
+        display: none;
     }
-    .content {
-        gap: 50px;
-    }
-    .copyright {
-        margin-bottom: 15px;
+    .content img {
+        display: none;
     }
   }
   
   @media (min-width: 320px) and (max-width: 480px) {
+    .small-logo {
+        margin-top: 5cqh;
+        display: block;
+    }
     nav {
-        gap: 100px;
+        display: none;
     }
-    .content {
-        gap: 50px;
-    }
-    .copyright {
-        margin-bottom: 15px;
+    .content img {
+        display: none;
     }
   }
   
