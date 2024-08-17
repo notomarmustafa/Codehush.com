@@ -52,7 +52,7 @@ nav a {
 
 nav a:hover {
     border-bottom: 2px solid hsl(239, 69%, 51%);
-    transition: 1s;
+    transition: .1s;
 }
 
 .content {
