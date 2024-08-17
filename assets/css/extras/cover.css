@@ -113,3 +113,20 @@ div.wb-domain {
         font-size: 12px;
     }
 }
+
+.btn-box button {
+    background: rgb(170, 78, 240);
+    border: 2px solid rgb(194, 111, 215);
+    outline: none;
+    padding: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #FAF9F9;
+    font-weight: 600;
+}
+
+.btn-box button:hover {
+    background: rgb(6, 2, 8);
+    transition: 1s;
+}
