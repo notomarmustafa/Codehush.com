@@ -120,3 +120,74 @@ nav a:hover {
         transform: translateY(0px);
     }
 }
+/* big desktops */
+@media (min-width: 1200px) and (max-width: 1400px) {
+    nav {
+        gap: 300px;
+    }
+    .content {
+        gap: 300px;
+    }
+  }
+
+/* only small desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+    nav {
+        gap: 250px;
+    }
+    .content {
+        gap: 250px;
+    }
+  }
+  
+  /* tablets */
+  @media (max-width: 991px) {
+    nav {
+        gap: 200px;
+    }
+    .content {
+        gap: 150px;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+  }
+  
+  /* only small tablets */
+  @media (min-width: 768px) and (max-width: 991px) {
+    nav {
+        gap: 100px;
+    }
+    .content {
+        gap: 50px;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+  }
+  
+  /* mobile or only mobile */
+  @media (max-width: 767px) {
+    nav {
+        gap: 100px;
+    }
+    .content {
+        gap: 50px;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+  }
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    nav {
+        gap: 100px;
+    }
+    .content {
+        gap: 50px;
+    }
+    .copyright {
+        margin-bottom: 15px;
+    }
+  }
+  
