@@ -14,7 +14,7 @@ Welcome to Code Hush, your all-in-one chat application designed to connect peopl
 
 ## Getting Started
 
-1. Head to [https://codehush.com](codehush.com) or [https://chat.codehush.com](chat.codehush.com)
+1. Head to [codehush.com](https://codehush.com "CodeHush.com") or [https://chat.codehush.com](chat.codehush.com) [Link Text](URL "Title")
 
 2. Set up an account
 
