@@ -1,7 +1,9 @@
 ```markdown
 # Code Hush
 
-Welcome to Code Hush, your all-in-one chat application designed to connect people seamlessly through text, voice, and video communication. Whether you want to stay in touch with friends and family, collaborate with teams, or build communities, Code Hush has you covered.
+Welcome to Code Hush, your all-in-one chat application designed to connect people seamlessly through text, voice,
+and video communication. Whether you want to stay in touch with friends and family, collaborate with teams,
+or build communities, Code Hush has you covered.
 
 ## Features
 
@@ -26,7 +28,8 @@ Welcome to Code Hush, your all-in-one chat application designed to connect peopl
 
 ## Contributing
 
-We welcome contributions to Code Hush! Whether you're fixing bugs, adding new features, or improving documentation, your help is appreciated.
+We welcome contributions to Code Hush! Whether you're fixing bugs, adding new features, or improving documentation,
+your help is appreciated.
 
 ### How to Contribute
 
