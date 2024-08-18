@@ -27,12 +27,12 @@ body {
     padding: 0 45px;
 }
 
-.container .login-box {
+.container .fp-box {
     position: relative;
     width: 100%;
 }
 
-.login-box .page-box {
+.fp-box .page-box {
     display: flex;
     flex-direction: column;
 }
@@ -61,18 +61,18 @@ body {
     transform: translateX();
 }
 
-.page-box .login-title {
+.page-box .fp-title {
     text-align: center;
     color: #fff;
     margin-bottom: 40px;
 }
 
-.login-title h2 {
+.fp-title h2 {
     font-size: 32px;
     line-height: 1.5;
 }
 
-.login-title p {
+.fp-title p {
     font-size: 16px;
     font-weight: 500;
 }
@@ -119,38 +119,6 @@ body {
     color: #0ef;
     background: #1f293a;
     padding: 0 6px;
-}
-
-.forgot {
-    margin-top: 6px;
-}
-
-.forgot .show {
-    margin: 10px 0 70px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.forgot a {
-    font-size: 14.5px;
-    color: #0ef;
-    text-decoration: none;
-}
-
-.forgot a:hover {
-    text-decoration: underline;
-}
-
-.forgot .show label {
-    font-size: 14.5px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.forgot .show label input {
-    accent-color: #0ef;
-    cursor: pointer;
-    margin-right: 3px;
 }
 
 .guest-mode {
