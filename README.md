@@ -26,26 +26,10 @@ or build communities, Code Hush has you covered.
 
 5. Have fun and follow the TOS
 
-## Contributing
+## Updates
 
-We welcome contributions to Code Hush! Whether you're fixing bugs, adding new features, or improving documentation,
-your help is appreciated.
-
-### How to Contribute
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with clear and concise commit messages.
-4. Push your changes to your fork.
-5. Submit a pull request to the main repository.
-
-### Code of Conduct
-
-Please read our [Code of Conduct](CODE_OF_CONDUCT.md) before contributing to ensure a welcoming environment for everyone.
-
-## License
-
-Code Hush is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+More updates are coming in the future so stay tuned and look out for emails from update@codehush.com,
+if they don't appear don't forget to check your junk.
 
 ## Contact
 
@@ -56,4 +40,4 @@ For questions or support, please contact us at support@codehush.com.
 Thank you for using Code Hush! We hope our platform enhances your communication experience.
 ```
 
-This README provides a comprehensive overview of Code Hush, installation instructions, and contribution guidelines. Feel free to customize it further to suit your needs!
+This README provides a comprehensive overview of Code Hush, How to start guide, and information about updates. Remember to have fun and follow the TOS!
