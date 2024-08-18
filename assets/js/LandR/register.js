@@ -19,8 +19,8 @@ protected void doPost(HttpServletRequest request, HttpServletResponse response) 
     // Add the user to the `users` map.
     users.put(username, password);
 
-    // Redirect the user to the login page.
-    response.sendRedirect("login");
+    // Redirect the user to the register page.
+    response.sendRedirect("register");
 }
 
 
