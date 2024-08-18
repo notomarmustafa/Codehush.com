@@ -1,5 +1,3 @@
-Here's a sample README file for your GitHub repository for Code Hush:
-
 ```markdown
 # Code Hush
 
