@@ -188,6 +188,20 @@ body {
     text-decoration: underline;
 }
 
+.btn-box button:hover {
+    width: 90px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0ef;
+    font-weight: 600;
+    transition: .5s;
+}
+
 .btn-box button {
     width: 90px;
     height: 40px;

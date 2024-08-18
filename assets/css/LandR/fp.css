@@ -184,6 +184,10 @@ body {
     text-decoration: none;
 }
 
+.btn-box a:hover {
+    text-decoration: underline;
+}
+
 .btn-box button:hover {
     width: 90px;
     height: 40px;
