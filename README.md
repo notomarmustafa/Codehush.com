@@ -14,40 +14,15 @@ Welcome to Code Hush, your all-in-one chat application designed to connect peopl
 
 ## Getting Started
 
-### Prerequisites
+1. Head to codehush.com or chat.codehush.com
 
-Before you start, ensure you have the following installed:
+2. Set up an account
 
-- [Node.js](https://nodejs.org/) (version 14 or above)
-- [npm](https://www.npmjs.com/) (version 6 or above)
+3. Log In with your account
 
-### Installation
+4. Make your first server
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/yourusername/code-hush.git
-   ```
-
-2. Navigate to the project directory:
-
-   ```bash
-   cd code-hush
-   ```
-
-3. Install the dependencies:
-
-   ```bash
-   npm install
-   ```
-
-4. Start the development server:
-
-   ```bash
-   npm start
-   ```
-
-5. Open your browser and go to `http://localhost:3000` to see Code Hush in action.
+5. Have fun and follow the TOS
 
 ## Contributing
 
