@@ -3,7 +3,7 @@ Here's a sample README file for your GitHub repository for Code Hush:
 ```markdown
 # Code Hush
 
-Welcome to __Code Hush__, your all-in-one chat application designed to connect people seamlessly through text, voice, and video communication. Whether you want to stay in touch with friends and family, collaborate with teams, or build communities, Code Hush has you covered.
+Welcome to Code Hush, your all-in-one chat application designed to connect people seamlessly through text, voice, and video communication. Whether you want to stay in touch with friends and family, collaborate with teams, or build communities, Code Hush has you covered.
 
 ## Features
 
