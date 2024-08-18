@@ -378,3 +378,10 @@ body {
   border-top-right-radius: 8em;
   border-bottom: 4px solid #e67e22;
 }
+
+/* mobile or only mobile */
+@media (max-width: 767px) {
+  .astronaut {
+    display: none;
+  }
+}
