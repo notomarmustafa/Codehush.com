@@ -3,16 +3,16 @@ Here's a sample README file for your GitHub repository for Code Hush:
 ```markdown
 # Code Hush
 
-Welcome to **Code Hush**, your all-in-one chat application designed to connect people seamlessly through text, voice, and video communication. Whether you want to stay in touch with friends and family, collaborate with teams, or build communities, Code Hush has you covered.
+Welcome to __Code Hush__, your all-in-one chat application designed to connect people seamlessly through text, voice, and video communication. Whether you want to stay in touch with friends and family, collaborate with teams, or build communities, Code Hush has you covered.
 
 ## Features
 
-- **Text Messaging**: Instant messaging with real-time delivery and read receipts.
-- **Voice and Video Calls**: High-quality voice and video calling for one-on-one and group conversations.
-- **Customizable Servers**: Create and manage servers with customizable channels, roles, and permissions.
-- **Private Direct Messages**: Send private messages directly to friends or colleagues.
-- **Group Chats**: Form group chats for small teams or large communities, with easy management and moderation tools.
-- **Cross-Platform**: Available on desktop, mobile, and web, so you can stay connected wherever you are.
+- Text Messaging: Instant messaging with real-time delivery and read receipts.
+- Voice and Video Calls: High-quality voice and video calling for one-on-one and group conversations.
+- Customizable Servers: Create and manage servers with customizable channels, roles, and permissions.
+- Private Direct Messages: Send private messages directly to friends or colleagues.
+- Group Chats: Form group chats for small teams or large communities, with easy management and moderation tools.
+- Cross-Platform: Available on desktop, mobile, and web, so you can stay connected wherever you are.
 
 ## Getting Started
 
