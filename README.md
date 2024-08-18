@@ -49,7 +49,7 @@ Code Hush is licensed under the MIT License. See the [LICENSE](LICENSE) file for
 
 ## Contact
 
-For questions or support, please contact us at [support@codehush.com](mailto:support@codehush.com).
+For questions or support, please contact us at support@codehush.com.
 
 ---
 
