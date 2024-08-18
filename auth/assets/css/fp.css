@@ -12,7 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #1f293a;
+    background-color: #03001e;
 }
 
 .container {
@@ -20,7 +20,7 @@ body {
     width: 500px;
     height: 530px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid -webkit-linear-gradient(120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%));
     display: flex;
     align-items: center;
     border-radius: 8px;
@@ -117,7 +117,7 @@ body {
     left: 12px;
     font-size: 13px;
     color: #0ef;
-    background: #1f293a;
+    background: #03001e;
     padding: 0 6px;
 }
 

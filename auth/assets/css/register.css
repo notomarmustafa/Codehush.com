@@ -12,27 +12,27 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #1f293a;
+    background-color: #03001e;
 }
 
 .container {
     position: relative;
     width: 500px;
-    height: 530px;
+    height: 630px;
     background: transparent;
-    border: 2px solid #0ef;
+    border: 2px solid -webkit-linear-gradient(120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%));
     display: flex;
     align-items: center;
     border-radius: 8px;
     padding: 0 45px;
 }
 
-.container .login-box {
+.container .register-box {
     position: relative;
     width: 100%;
 }
 
-.login-box .page-box {
+.register-box .page-box {
     display: flex;
     flex-direction: column;
 }
@@ -61,18 +61,18 @@ body {
     transform: translateX();
 }
 
-.page-box .login-title {
+.page-box .register-title {
     text-align: center;
     color: #fff;
     margin-bottom: 40px;
 }
 
-.login-title h2 {
+.register-title h2 {
     font-size: 32px;
     line-height: 1.5;
 }
 
-.login-title p {
+.register-title p {
     font-size: 16px;
     font-weight: 500;
 }
@@ -117,59 +117,8 @@ body {
     left: 12px;
     font-size: 13px;
     color: #0ef;
-    background: #1f293a;
+    background: #03001e;
     padding: 0 6px;
-}
-
-.forgot {
-    margin-top: 6px;
-}
-
-.forgot .show {
-    margin: 10px 0 70px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.forgot a {
-    font-size: 14.5px;
-    color: #0ef;
-    text-decoration: none;
-}
-
-.forgot a:hover {
-    text-decoration: underline;
-}
-
-.forgot .show label {
-    font-size: 14.5px;
-    color: #fff;
-    cursor: pointer;
-}
-
-.forgot .show label input {
-    accent-color: #0ef;
-    cursor: pointer;
-    margin-right: 3px;
-}
-
-.guest-mode {
-    margin: 16px 0;
-}
-
-.guest-mode p {
-    font-size: 14.5px;
-    color: #fff;
-}
-
-.guest-mode a {
-    font-size: 14.5px;
-    color: #0ef;
-    text-decoration: none;
-}
-
-.guest-mode a:hover {
-    text-decoration: underline;
 }
 
 .btn-box {
@@ -215,7 +164,67 @@ body {
     font-weight: 600;
 }
 
-.back-btn {
+/*.alert-btn {
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 150px;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    text-transform: capitalize;
+    background:rgb(255, 119, 119);
+    border-top: 10px solid rgb(255, 37, 37);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #fff;
+    font-family: 'roboto', sans-serif;
+    text-align: center;
+    transition: 1s;
+} */
+
+/* The alert message box */
+.alert {
+    position: absolute;
+    top: 5%;
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+
+.alert.success {background-color: #04AA6D;}
+.alert.info {background-color: #2196F3;}
+.alert.warning {background-color: #ff9800;}
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 5px;
+    margin-top: 3px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+  .alert {
+    opacity: 1;
+    transition: opacity 0.6s; /* 600ms to fade out */
+  }
+
+  .back-btn {
     display: flex;
     align-items: start;
     justify-content: space-between;
