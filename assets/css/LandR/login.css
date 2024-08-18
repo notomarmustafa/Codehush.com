@@ -200,3 +200,42 @@ body {
     color: #1f293a;
     font-weight: 600;
 }
+
+.back-btn {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.back-btn a {
+    font-size: 14.5px;
+    color: #0ef;
+    text-decoration: none;
+}
+
+.back-btn button:hover {
+    width: 90px;
+    height: 40px;
+    background: #0ef;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #1f293a;
+    font-weight: 600;
+    transition: .5s;
+}
+
+.back-btn button {
+    width: 90px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #0ef;
+    font-weight: 600;
+}
