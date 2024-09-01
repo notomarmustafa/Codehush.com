@@ -27,11 +27,7 @@ nav {
 
 nav .logo {
   font-size: 2rem;
-  background: -webkit-linear-gradient(
-    120deg,
-    hsl(318, 94%, 61%),
-    hsl(239, 69%, 51%)
-  );
+  background: -webkit-linear-gradient( 120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%) );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
