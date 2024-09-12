@@ -36,7 +36,7 @@ html {
 }
 
 body {
-  background: var(--bg-color);
+  background-color: #03001e;
   color: var(--text-color);
 }
 
@@ -114,7 +114,7 @@ section {
 }
 
 span {
-  color: var(--main-color);
+  color: #0ef;
 }
 
 .btn-box.btns {
@@ -123,7 +123,7 @@ span {
 }
 
 .btn-box.btns a::before {
-  background: var(--second-bg-color);
+  background: #03001e;
 }
 
 .contact {
@@ -165,7 +165,7 @@ span {
   color: var(--text-color);
   background: transparent;
   border-radius: 0.6rem;
-  border: 0.2rem solid var(--main-color);
+  border: 0.2rem solid #0ef;
 }
 
 .contact form .input-box .input-field input::placeholder,
