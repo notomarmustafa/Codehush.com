@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <!--
 88888888    88888888    88888888       88888888      88    88    88    88   88888888    88    88 
@@ -10,86 +9,115 @@
 88888888    88888888    88888888       88888888      88    88    88888888   88888888    88    88
 -->
 
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-    rel="apple-touch-icon"
-   sizes="180x180"
-    href="assets/img/favicon/Android Chrome/icons8-quarantine-outline-gradient-96.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="32x32"
-    href="assets/img/favicon/Web/icons8-quarantine-outline-gradient-32.png"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    sizes="16x16"
-    href="assets/img/favicon/Web/icons8-quarantine-outline-gradient-16.png"
-  />
-  <link
-   rel="manifest"
-   href="assets/img/favicon/Android Chrome/manifest.json"
-  />
+    <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact Us | Code Hush</title>
-    <link rel="stylesheet" href="/assets/css/LandR/login.css" />
-    
+    <link rel="icon" type="image/x-icon" href="assets/img/favicon/windows/code-hush-windows-70.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta
+      name="keywords"
+      content="Code Hush, code hush, CodeHush, codehush, CODEHUSH, CODE HUSH, chat, Chat, CHAT, HUSH, hush, Hush, Chat Hush, chat hush, CHAT HUSH, chathush, CHATHUSH, ChatHush, Code, CODE, text, TEXT, Text, contact, CONTACT, Contact, contact form, form, CONTACT FORM, Contact Form"
+    />
+    <link
+      rel="apple-touch-icon"
+     sizes="180x180"
+      href="assets/img/favicon/Android Chrome/icons8-quarantine-outline-gradient-96.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/img/favicon/Web/icons8-quarantine-outline-gradient-32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/img/favicon/Web/icons8-quarantine-outline-gradient-16.png"
+    />
+    <link
+     rel="manifest"
+     href="assets/img/favicon/Android Chrome/manifest.json"
+    />
+    <title>Contact Us</title>
   </head>
 
   <body>
-    <div class="container">
-      <div class="login-box">
-        <form action="#">
-          <div class="page-box">
-            <div class="login-title">
-              <h2>Contact Us</h2>
-              <p>Please login to continue</p>
-            </div>
-            <div class="page email-page">
-              <div class="input-box">
-                <input type="email" class="email" autofocus required />
-                <label>Enter your email</label>
-              </div>
-              <div class="forgot">
-                <a href="#">Forgot email?</a>
-              </div>
-            </div>
-            <div class="guest-mode"></div>
-            <div class="btn-box"></div>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        Contact <span>Us!</span
+        >
+      </h2>
+      <form>
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Full Name"
+              required
+            />
+            <span class="focus"></span>
           </div>
-          <div class="page email-page">
-            <div class="input-box">
-              <input type="password" class="password" autofocus required />
-              <label>Enter your password</label>
-            </div>
-            <div class="forgot">
-              <a href="#">Forgot passowrd</a>
-            </div>
+          <div class="input-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <span class="focus"></span>
           </div>
-          <div class="guest-mode">
-            <p>Not your computer? Use guest mode to login privately.</p>
-            <a href="#">Learn more</a>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              placeholder="Mobile Number"
+              required
+            />
+            <span class="focus"></span>
           </div>
-          <div class="btn-box button-container">
-            <p style="font-size: 14.5px; color: #fff; text-decoration: none">
-              Need an account?&nbsp;<a href="https://codehush.com/auth/register"
-                >Sign up</a
-              >
-            </p>
-            <button class="btn-next">Next</button>
+          <div class="input-field">
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+              autocomplete="off"
+            />
+            <span class="focus"></span>
           </div>
-        </form>
-      </div>
-    </div>
-    <script src="/assets/js/LandR/login.js"></script>
+        </div>
+
+        <div class="textarea-field">
+          <textarea
+            id="message"
+            cols="30"
+            rows="10"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button onclick="SendMail()" name="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="assets/js/script.js" type="text/JavaScript"></script>
   </body>
 </html>
