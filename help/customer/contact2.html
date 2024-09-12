@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="" />
+    <link rel="stylesheet" href="assests/css/styles.css" />
+    <title>Contact Us</title>
+  </head>
+
+  <body>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        Contact <span>Us!</span
+        >
+      </h2>
+      <form>
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Full Name"
+              required
+            />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+              required
+            />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="input-box">
+          <div class="input-field">
+            <input
+              type="number"
+              id="phone"
+              name="phone"
+              placeholder="Mobile Number"
+              required
+            />
+            <span class="focus"></span>
+          </div>
+          <div class="input-field">
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+              autocomplete="off"
+            />
+            <span class="focus"></span>
+          </div>
+        </div>
+
+        <div class="textarea-field">
+          <textarea
+            id="message"
+            cols="30"
+            rows="10"
+            name="message"
+            placeholder="Your Message"
+            required
+          ></textarea>
+          <span class="focus"></span>
+        </div>
+
+        <div class="btn-box btns">
+          <button onclick="SendMail()" name="submit" class="btn">Submit</button>
+        </div>
+      </form>
+    </section>
+
+    <script src="assests/js/script.js" type="text/JavaScript"></script>
+  </body>
+</html>
