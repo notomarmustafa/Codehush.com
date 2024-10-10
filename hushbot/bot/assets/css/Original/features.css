@@ -1,0 +1,108 @@
+body {
+    background-color: #03001e;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 600px;
+  width: 100%;
+  height: 100px;
+}
+
+nav .logo {
+  font-size: 2rem;
+  background: -webkit-linear-gradient( 120deg, hsl(318, 94%, 61%), hsl(239, 69%, 51%) );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    display: none;
+}
+
+ul {
+  text-transform: uppercase;
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0 35px;
+  font-size: 1.2rem;
+}
+
+nav a {
+  background: -webkit-linear-gradient(
+    120deg,
+    hsl(318, 94%, 61%),
+    hsl(239, 69%, 51%)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-bottom: 2px solid hsl(239, 69%, 51%);
+  transition: 0.1s;
+}
+
+.content {
+    display: none; /* Hide content by default */
+}
+
+.title {
+    color: #ad6edf;
+}
+
+.collapsed {
+    display: none; /* Hide collapsed indicator */
+}
+
+.container {
+    background-color: #333; /* Adjust background color */
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #54049CFF; /* Colored border */
+    display: block;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    margin-top: auto; /* Pushes the footer to the bottom */
+}
+
+::-webkit-scrollbar {
+    width: 15px; /* Width of the scrollbar */
+    border-radius: 5px; /* Border radius of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #03001e; /* Color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #54049CFF; /* Color of the thumb */
+    border-radius: 2px; /* Border radius of the scrollbar */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #7404d6; /* Color of the thumb on hover */
+}
+
+.menu-container .menu {
+    padding: 10px;
+    border-radius: 5px;
+}
