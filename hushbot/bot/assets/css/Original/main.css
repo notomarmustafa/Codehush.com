@@ -21,10 +21,14 @@ body {
   background-color: #03001e;
 }
 
+div {
+  margin-top: 50px;
+}
+
 /*Privacy Policy Body*/
 
 .privacy-body {
-  color: white;
+  color: #f5f5e4;
   line-height: 1.7em;
 }
 
@@ -114,7 +118,7 @@ body {
 /* Terms and Conditions */
 
 .terms-body {
-  color: white;
+  color: #f5f5e4;
   line-height: 1.7em;
 }
 
