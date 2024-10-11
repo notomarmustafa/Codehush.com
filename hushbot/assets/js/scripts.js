@@ -1,12 +1,21 @@
-// Add any JavaScript functionality you need here
-document.addEventListener("DOMContentLoaded", function () {
-    // Example: Handle form submission
-    const form = document.querySelector("form");
-    if (form) {
-        form.addEventListener("submit", function (event) {
-            event.preventDefault();
-            alert("Thank you for your message!");
-            form.reset();
-        });
-    }
-});
+function toggleMenu(menuId) {
+  const submenu = document.getElementById(menuId);
+  if (submenu.style.display === "block") {
+    submenu.style.display = "none"; // Hide submenu if it's already open
+  } else {
+    submenu.style.display = "block"; // Show submenu
+  }
+}
+
+window.addEventListener('load', onLoad);
+
+        function onLoad () {
+          const copyrightEl = document.getElementById('copyright');
+
+          if (copyrightEl) {
+            const currentYear = new Date().getFullYear();
+            const copyrightText = `&copy; ${currentYear} Code Hush | All rights reserved `;
+
+            copyrightEl.innerHTML = copyrightText;
+          }
+        }

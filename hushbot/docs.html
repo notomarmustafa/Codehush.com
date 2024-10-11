@@ -1,42 +1,234 @@
 <!DOCTYPE html>
+
+<!--
+88888888    88888888    88888888       88888888      88    88    88    88   88888888    88    88
+88          88    88    88     88      88            88    88    88    88   88          88    88
+88          88    88    88      88     88            88    88    88    88   88          88    88
+88          88    88    88       88    88888888      88888888    88    88   88888888    88888888
+88          88    88    88      88     88            88    88    88    88         88    88    88
+88          88    88    88     88      88            88    88    88    88         88    88    88
+88888888    88888888    88888888       88888888      88    88    88888888   88888888    88    88
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Hush Bot - Documentation</title>
+    <title>Docs | Code Hush</title>
+    <link rel="stylesheet" href="assets/css/docs.css">
+    <link rel="icon" type="image/png" href="../assets/logo/Favicon/code-hush-favicon-favicon-color.png"/>
 </head>
+
 <body>
-    <header>
-        <h1>Hush Bot Documentation</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="setup-guide.html">Setup Guide</a></li>
-                <li><a href="documentation.html">Documentation</a></li>
-                <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="changelog.html">Changelog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Command Syntax</h2>
-            <p>Details on how to use the commands will go here.</p>
-        </section>
-    </main>
+    <div class="sidenav">
+      <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('features')">Features</a>
+      <div id="features" class="submenu">
+        <a href="#admin-tools">Admin Tools</a>
+        <a href="#fun-games">Fun Games</a>
+        <a href="#music-commands">Music Commands</a>
+        <a href="#greeting-features">Greeting Features</a>
+        <a href="#server-stats">Server Stats</a>
+        <a href="#interface">User Friendly Interface</a>
+        <a href="#engagement">Engagement & Community Building</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('documentation')">Documentation</a>
+      <div id="documentation" class="submenu">
+        <a href="#command-syntax">Command Syntax</a>
+        <a href="#examples">Examples of Use</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('changelog')">Change Log</a>
+      <div id="changelog" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('support')">Support</a>
+      <div id="support" class="submenu">
+        <a href="https://codehush.com/hushbot/support/contact">Contact Form</a>
+        <a href="https://codehush.com/hushbot/support/reports">Bug Reporting</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('reviews')">Reviews</a>
+      <div id="reviews" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('guide')">Guide</a>
+      <div id="guide" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('FAQs')">FAQs</a>
+      <div id="FAQs" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('blogs')">Blogs</a>
+      <div id="blogs" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+    </div>
 
-    <footer>
-        <p>&copy; 2024 Hush Bot. All rights reserved.</p>
+    <div class="container" style="margin-bottom: 100px">
+        <div class="main">
+            <div class="title"><h1>Features</h1></div>
+            <div class="subtitle"><h3>This is the features section</h3></div>
+            <div class="s-container" id="admin-tools"><h2 class="s-title">Admin Tools</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Role Management:</span> Easily add or remove roles for users, helping manage permissions within your server.
+                        </li>
+                        <li>
+                            <span>Moderation Tools:</span> Ban, kick, and unban users with simple commands to maintain a safe community.
+                        </li>
+                        <li>
+                            <span>Message Logging:</span> Automatically log user actions for better oversight and accountability.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                </div>
+            </div>
+            <div class="s-container" id="fun-games"><h2 class="s-title">Fun Games</h2>
+                <div class="description">
+                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+
+                    <ul>
+                        <li>
+                            <span>Trivia and Quizzes:</span> Engage your server members with fun trivia questions and quizzes.
+                        </li>
+                        <li>
+                            <span>Games:</span> Play interactive games like Hangman, Rock-Paper-Scissors, and more to enhance community interaction.
+                        </li>
+                        <li>
+                            <span>Meme Responses:</span> Get random memes in response to specific keywords for some light-hearted fun.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-container" id="music-commands"><h2 class="s-title">Music Commands</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Play Music:</span> Join voice channels and play your favorite songs.
+                        </li>
+                        <li>
+                            <span>Manage Queue:</span> Easily add, skip, or pause songs in your listening queue.
+                        </li>
+                        <li>
+                            <span>Resume and Leave:</span> Control your music experience seamlessly.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                </div>
+            </div>
+            <div class="s-container" id="greeting-features"><h2 class="s-title">Greeting Features</h2>
+                <div class="description">
+                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+
+                    <ul>
+                        <li>
+                            <span>Welcome Messages:</span> Automatically greet new members and make them
+                        </li>
+                        <li>
+                            <span>Goodbye Messages:</span> Send personalized farewell messages to departing members.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-container" id="server-stats"><h2 class="s-title">Server Stats</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Real-Time Member Stats:</span> Display voice channels with real-time stats on total members, online members, and bot members.
+                        </li>
+                        <li>
+                            <span>Customizable Views:</span> Easily manage what statistics are displayed and who can see them.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                </div>
+            </div>
+            <div class="s-container" id="interface"><h2 class="s-title">User Friendly Interface</h2>
+                <div class="description">
+                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+
+                    <ul>
+                        <li>
+                            <span>Slash Commands:</span> Utilize intuitive slash commands for a smoother user experience.
+                        </li>
+                        <li>
+                            <span>Custom Commands:</span> Create and manage custom commands tailored to your server's needs.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="s-container" id="engagement"><h2 class="s-title">Engagement & Community Building</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Encourages Interaction:</span> Features that promote member engagement and foster community bonding.
+                        </li>
+                        <li>
+                            <span>Flexible Configurations:</span> Adjust settings and commands to suit your server's unique atmosphere.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="main">
+            <div class="title"><h1>Documentation</h1></div>
+            <div class="subtitle"><h3>This is the documentation section</h3></div>
+            <div class="s-container" id="command-syntax"><h2 class="s-title">Command Syntax</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Role Management:</span> Easily add or remove roles for users, helping manage permissions within your server.
+                        </li>
+                        <li>
+                            <span>Moderation Tools:</span> Ban, kick, and unban users with simple commands to maintain a safe community.
+                        </li>
+                        <li>
+                            <span>Message Logging:</span> Automatically log user actions for better oversight and accountability.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                </div>
+            </div>
+            <div class="s-container" id="example"><h2 class="s-title">Example of Use</h2>
+                <div class="description">
+                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+
+                    <ul>
+                        <li>
+                            <span>Trivia and Quizzes:</span> Engage your server members with fun trivia questions and quizzes.
+                        </li>
+                        <li>
+                            <span>Games:</span> Play interactive games like Hangman, Rock-Paper-Scissors, and more to enhance community interaction.
+                        </li>
+                        <li>
+                            <span>Meme Responses:</span> Get random memes in response to specific keywords for some light-hearted fun.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="space-between-context-and-footer"></div>
+    <footer class="footer">
+        <p id="copyright"></p>
     </footer>
 
-    <script src="js/scripts.js"></script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>

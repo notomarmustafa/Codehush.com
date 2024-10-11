@@ -1,42 +1,101 @@
 <!DOCTYPE html>
+
+<!--
+88888888    88888888    88888888       88888888      88    88    88    88   88888888    88    88
+88          88    88    88     88      88            88    88    88    88   88          88    88
+88          88    88    88      88     88            88    88    88    88   88          88    88
+88          88    88    88       88    88888888      88888888    88    88   88888888    88888888
+88          88    88    88      88     88            88    88    88    88         88    88    88
+88          88    88    88     88      88            88    88    88    88         88    88    88
+88888888    88888888    88888888       88888888      88    88    88888888   88888888    88    88
+-->
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Hush Bot - About</title>
+    <title>Features | Code Hush</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="icon" type="image/png" href="../assets/logo/Favicon/code-hush-favicon-favicon-color.png"/>
 </head>
+
 <body>
-    <header>
-        <h1>About Hush Bot</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="setup-guide.html">Setup Guide</a></li>
-                <li><a href="documentation.html">Documentation</a></li>
-                <li><a href="faqs.html">FAQs</a></li>
-                <li><a href="support.html">Support</a></li>
-                <li><a href="changelog.html">Changelog</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="testimonials.html">Testimonials</a></li>
-                <li><a href="community.html">Community</a></li>
-                <li><a href="blog.html">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <main>
-        <section>
-            <h2>Our Story</h2>
-            <p>Hush Bot was created to enhance the Discord experience for users.</p>
-        </section>
-    </main>
+    <nav>
+      <ul>
+          <li><a href="#" target="_blank">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Community</a></li>
+          <li><a href="#" style="border-bottom: 2px solid hsl(239, 69%, 51%);">Documentation</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+      </ul>
+    </nav>
 
-    <footer>
-        <p>&copy; 2024 Hush Bot. All rights reserved.</p>
+    <div class="sidenav">
+      <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('features')">Features</a>
+      <div id="features" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+      <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('guide')">Guide</a>
+      <div id="guide" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+      <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('documentation')">Documentation</a>
+      <div id="documentation" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('changelog')">Change Log</a>
+      <div id="changelog" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('support')">Support</a>
+      <div id="support" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('reviews')">Reviews</a>
+      <div id="reviews" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('FAQs')">FAQs</a>
+      <div id="FAQs" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+        <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('blogs')">Blogs</a>
+      <div id="blogs" class="submenu">
+        <a href="#">Test</a>
+        <a href="#">Test</a>
+      </div>
+    </div>
+
+    <div class="container">
+
+    </div>
+
+    <footer class="footer">
+        <p id="copyright"></p>
     </footer>
+    <script>
+        window.addEventListener('load', onLoad);
 
-    <script src="js/scripts.js"></script>
+        function onLoad () {
+          const copyrightEl = document.getElementById('copyright');
+
+          if (copyrightEl) {
+            const currentYear = new Date().getFullYear();
+            const copyrightText = `&copy; ${currentYear} Code Hush | All rights reserved `;
+
+            copyrightEl.innerHTML = copyrightText;
+          }
+        }
+    </script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
