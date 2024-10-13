@@ -10,3 +10,59 @@
     height: 80vh;
     display: none;
 }
+
+#hidePosition {
+    display: none;
+}
+
+#resetPosition {
+    display: none;
+}
+
+.btn-show {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: green;
+    color: darkgreen;
+}
+
+.btn-show:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.btn-hide {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: green;
+    color: darkgreen;
+}
+
+.btn-hide:hover {
+    background-color: lightgreen;
+    color: white;
+}
+
+.btn-reset {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: green;
+    color: darkgreen;
+}
+
+.btn-reset:hover {
+    background-color: lightgreen;
+    color: white;
+}
