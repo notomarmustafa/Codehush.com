@@ -93,5 +93,30 @@ hidePosition.addEventListener("click", function () {
 
 const resetPosition = document.getElementById("resetPosition");
 resetPosition.addEventListener("click", function () {
-    alert("Please reset your location permission by going to your browser's site settings.");
+    // Creating a styled message with the same button theme
+    const messageBox = document.createElement("div");
+    messageBox.innerHTML = `
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close-btn">&times;</span>
+                <h2>Permission Denied</h2>
+                <p>It seems like you denied location access. You can reset your permissions by going to your browser's site settings.</p>
+                <button id="closeModal" class="btn-reset">Close</button>
+            </div>
+        </div>
+    `;
+
+    // Append the message to the body
+    document.body.appendChild(messageBox);
+
+    // Add event listener to close the modal
+    const closeButton = document.querySelector(".close-btn");
+    closeButton.addEventListener("click", function () {
+        document.querySelector(".modal").remove();
+    });
+
+    const closeModalButton = document.getElementById("closeModal");
+    closeModalButton.addEventListener("click", function () {
+        document.querySelector(".modal").remove();
+    });
 });
