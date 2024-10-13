@@ -105,6 +105,11 @@ body::-webkit-scrollbar {
     margin-bottom: 20px;
 }
 
+code {
+    background-color: grey;
+    border-radius: 2px;
+}
+
 .space-between-context-and-footer {
     margin-bottom: 100px;
 }

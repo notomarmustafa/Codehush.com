@@ -34,8 +34,13 @@
       </div>
         <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('documentation')">Documentation</a>
       <div id="documentation" class="submenu">
-        <a href="#command-syntax">Command Syntax</a>
-        <a href="#examples">Examples of Use</a>
+        <a href="#getting-started">Getting Started</a>
+        <a href="#admin-cmd">Admin Commands</a>
+        <a href="#fun-games-cmd">Fun & Games Commands</a>
+        <a href="#music-cmd">Music Commands</a>
+        <a href="#greeting-cmd">Greeting Commands</a>
+        <a href="#server-stats-cmd">Server Stats Commands</a>
+        <a href="#cc-cmd">Customization and Configuration</a>
       </div>
         <a href="javascript:void(0);" class="toggle" onclick="toggleMenu('changelog')">Change Log</a>
       <div id="changelog" class="submenu">
@@ -87,12 +92,12 @@
                         </li>
                     </ul>
 
-                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
                 </div>
             </div>
             <div class="s-container" id="fun-games"><h2 class="s-title">Fun Games</h2>
                 <div class="description">
-                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
 
                     <ul>
                         <li>
@@ -121,12 +126,12 @@
                         </li>
                     </ul>
 
-                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
                 </div>
             </div>
             <div class="s-container" id="greeting-features"><h2 class="s-title">Greeting Features</h2>
                 <div class="description">
-                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
 
                     <ul>
                         <li>
@@ -149,12 +154,12 @@
                         </li>
                     </ul>
 
-                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
                 </div>
             </div>
             <div class="s-container" id="interface"><h2 class="s-title">User Friendly Interface</h2>
                 <div class="description">
-                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
 
                     <ul>
                         <li>
@@ -177,7 +182,7 @@
                         </li>
                     </ul>
 
-                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
                 </div>
             </div>
         </div>
@@ -187,38 +192,133 @@
         <div class="main">
             <div class="title"><h1>Documentation</h1></div>
             <div class="subtitle"><h3>This is the documentation section</h3></div>
-            <div class="s-container" id="command-syntax"><h2 class="s-title">Command Syntax</h2>
+            <div class="s-container" id="getting-started"><h2 class="s-title">Getting Started</h2>
                 <div class="description">
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
+
                     <ul>
                         <li>
-                            <span>Role Management:</span> Easily add or remove roles for users, helping manage permissions within your server.
+                            <span>Invite Hush Bot:</span> Start by inviting Hush Bot to your server using the link below. <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748">Discord Invite</a>
                         </li>
                         <li>
-                            <span>Moderation Tools:</span> Ban, kick, and unban users with simple commands to maintain a safe community.
+                            <span>Grant Permissions:</span> Ensure the bot has the necessary permissions to function properly, such as managing roles, sending messages, and reading text channels.
                         </li>
                         <li>
-                            <span>Message Logging:</span> Automatically log user actions for better oversight and accountability.
+                            <span>Slash Commands:</span> Hush Bot uses modern slash commands for all interactions. Simply type <code>/</code> in the chat, and a list of available commands will appear.
                         </li>
                     </ul>
 
-                    <div class="img-1"><img src="image.png" alt="image" width="500" height="600"></div>
                 </div>
             </div>
-            <div class="s-container" id="example"><h2 class="s-title">Example of Use</h2>
+            <div class="s-container" id="admin-cmd"><h2 class="s-title">Admin Commands</h2>
                 <div class="description">
-                    <div class="img-2"><img src="image.png" alt="image" width="500" height="600"></div>
+                    <ul>
+                        <li>
+                            <span><code>/addRole @user [role]</code>:</span> Assigns a specific role to a user. Example: <code>/addRole @Ahmed Moderator</code>
+                        </li>
+                        <li>
+                            <span><code>/ban @user [reason]</code>:</span> Bans a user from the server, with an optional reason. Example: <code>/ban @John Spamming</code>
+                        </li>
+                        <li>
+                            <span><code>/unban [userID]</code>:</span> Unbans a user from the server using their user ID. Example: <code>/unban 123456789</code>
+                        </li>
+                        <li>
+                            <span><code>/kick @user [reason]</code>:</span> Kicks a user from the server. Example: <code>/kick @Mike Rule Violation</code>
+                        </li>
+                        <li>
+                            <span><code>/check_last_message @user</code>:</span> View the last message sent by a specific user. Example: <code>/check_last_message @Nate</code>
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
+                </div>
+            </div>
+            <div class="s-container" id="fun-games-cmd"><h2 class="s-title">Fun & Games Commands</h2>
+                <div class="description">
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
 
                     <ul>
                         <li>
-                            <span>Trivia and Quizzes:</span> Engage your server members with fun trivia questions and quizzes.
+                            <span>Invite Hush Bot:</span> Start by inviting Hush Bot to your server using the link below. <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748">Discord Invite</a>
                         </li>
                         <li>
-                            <span>Games:</span> Play interactive games like Hangman, Rock-Paper-Scissors, and more to enhance community interaction.
+                            <span>Grant Permissions:</span> Ensure the bot has the necessary permissions to function properly, such as managing roles, sending messages, and reading text channels.
                         </li>
                         <li>
-                            <span>Meme Responses:</span> Get random memes in response to specific keywords for some light-hearted fun.
+                            <span>Slash Commands:</span> Hush Bot uses modern slash commands for all interactions. Simply type <code style="background-color: grey; border-radius: 2px;">/</code> in the chat, and a list of available commands will appear.
                         </li>
                     </ul>
+
+                </div>
+            </div>
+            <div class="s-container" id="music-cmd"><h2 class="s-title">Music Commands</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Invite Hush Bot:</span> Start by inviting Hush Bot to your server using the link below. <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748">Discord Invite</a>
+                        </li>
+                        <li>
+                            <span>Grant Permissions:</span> Ensure the bot has the necessary permissions to function properly, such as managing roles, sending messages, and reading text channels.
+                        </li>
+                        <li>
+                            <span>Slash Commands:</span> Hush Bot uses modern slash commands for all interactions. Simply type <code style="background-color: grey; border-radius: 2px;">/</code> in the chat, and a list of available commands will appear.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
+                </div>
+            </div>
+            <div class="s-container" id="greeting-cmd"><h2 class="s-title">Greeting Commands</h2>
+                <div class="description">
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
+
+                    <ul>
+                        <li>
+                            <span>Invite Hush Bot:</span> Start by inviting Hush Bot to your server using the link below. <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748">Discord Invite</a>
+                        </li>
+                        <li>
+                            <span>Grant Permissions:</span> Ensure the bot has the necessary permissions to function properly, such as managing roles, sending messages, and reading text channels.
+                        </li>
+                        <li>
+                            <span>Slash Commands:</span> Hush Bot uses modern slash commands for all interactions. Simply type <code style="background-color: grey; border-radius: 2px;">/</code> in the chat, and a list of available commands will appear.
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <div class="s-container" id="server-stats-cmd"><h2 class="s-title">Server Stats Commands</h2>
+                <div class="description">
+                    <ul>
+                        <li>
+                            <span>Invite Hush Bot:</span> Start by inviting Hush Bot to your server using the link below. <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748">Discord Invite</a>
+                        </li>
+                        <li>
+                            <span>Grant Permissions:</span> Ensure the bot has the necessary permissions to function properly, such as managing roles, sending messages, and reading text channels.
+                        </li>
+                        <li>
+                            <span>Slash Commands:</span> Hush Bot uses modern slash commands for all interactions. Simply type <code style="background-color: grey; border-radius: 2px;">/</code> in the chat, and a list of available commands will appear.
+                        </li>
+                    </ul>
+
+                    <div class="img-1"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
+                </div>
+            </div>
+            <div class="s-container" id="cc-cmd"><h2 class="s-title">Customization and configuration Commands</h2>
+                <div class="description">
+                    <div class="img-2"><img src="../assets/logo/code-hush-high-resolution-logo.png" alt="features image" style="width: 10%; height: 10%; border-radius: 10px"></div>
+
+                    <ul>
+                        <li>
+                            <span>Invite Hush Bot:</span> Start by inviting Hush Bot to your server using the link below. <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748">Discord Invite</a>
+                        </li>
+                        <li>
+                            <span>Grant Permissions:</span> Ensure the bot has the necessary permissions to function properly, such as managing roles, sending messages, and reading text channels.
+                        </li>
+                        <li>
+                            <span>Slash Commands:</span> Hush Bot uses modern slash commands for all interactions. Simply type <code style="background-color: grey; border-radius: 2px;">/</code> in the chat, and a list of available commands will appear.
+                        </li>
+                    </ul>
+
                 </div>
             </div>
         </div>
