@@ -29,7 +29,7 @@
         Contact <span>Us!</span
         >
       </h2>
-      <form>
+      <form onsubmit="sendEmail(); reset(); return false;">
         <div class="input-box">
           <div class="input-field">
             <input
@@ -350,11 +350,11 @@
         </div>
 
         <div class="btn-box btns">
-          <button onclick="SendMail()" name="submit" class="btn">Submit</button>
+          <button name="submit" class="btn">Submit</button>
         </div>
       </form>
     </section>
 
-    <script src="assets/js/script.js" type="text/JavaScript"></script>
+    <!-- <script src="assets/js/script.js" type="text/JavaScript"></script> -->
   </body>
 </html>
