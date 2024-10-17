@@ -29,7 +29,7 @@
         Contact <span>Us!</span
         >
       </h2>
-      <form onsubmit="sendEmail(); reset(); return false;">
+      <form target="_blank" action="https://formsubmit.co/omar@codehush.com" method="POST">
         <div class="input-box">
           <div class="input-field">
             <input
@@ -349,12 +349,15 @@
           <span class="focus"></span>
         </div>
 
+        <input type="hidden" name="_captcha" value="false">
+        <!--<input type="hidden" name="_next" value="https://codehush.com/help/customer/successful">-->
+
         <div class="btn-box btns">
-          <button name="submit" class="btn">Submit</button>
+          <button name="submit" class="btn" type="submit">Submit</button>
         </div>
       </form>
     </section>
 
-    <!-- <script src="assets/js/script.js" type="text/JavaScript"></script> -->
+    <script src="assets/js/script.js" type="text/JavaScript"></script>
   </body>
 </html>
