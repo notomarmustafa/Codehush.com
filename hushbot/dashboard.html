@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hush Bot Dashboard</title>
+    <link rel="stylesheet" href="assets/css/dashboard.css">
+</head>
+<body>
+    <header class="dashboard-header">
+        <h1>Welcome to Hush Bot Dashboard</h1>
+        <button id="logout-btn">Log Out</button>
+    </header>
+
+    <nav class="dashboard-nav">
+        <ul>
+            <li><a href="#welcome-message">Welcome Message</a></li>
+            <li><a href="#server-stats">Server Stats</a></li>
+            <li><a href="#goodbye-message">Goodbye Message</a></li>
+        </ul>
+    </nav>
+
+    <main class="dashboard-content">
+        <!-- Welcome Message Section -->
+        <section id="welcome-message">
+            <h2>Welcome Message</h2>
+            <p>Customize the message new members receive when they join your server.</p>
+            <textarea id="welcome-text" rows="4" placeholder="Enter your welcome message here..."></textarea>
+            <button onclick="saveSettings('welcome')">Save Welcome Message</button>
+        </section>
+
+        <!-- Server Stats Section -->
+        <section id="server-stats">
+            <h2>Server Stats</h2>
+            <p>Choose which server stats to display:</p>
+            <label><input type="checkbox" id="total-members"> Total Members</label><br>
+            <label><input type="checkbox" id="online-members"> Online Members</label><br>
+            <label><input type="checkbox" id="bot-members"> Bot Members</label><br>
+            <button onclick="saveSettings('stats')">Save Server Stats</button>
+        </section>
+
+        <!-- Goodbye Message Section -->
+        <section id="goodbye-message">
+            <h2>Goodbye Message</h2>
+            <p>Customize the message members receive when they leave your server.</p>
+            <textarea id="goodbye-text" rows="4" placeholder="Enter your goodbye message here..."></textarea>
+            <button onclick="saveSettings('goodbye')">Save Goodbye Message</button>
+        </section>
+    </main>
+
+    <script src="assets/js/dashboard.js"></script>
+</body>
+</html>

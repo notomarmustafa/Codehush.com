@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hush Bot Dashboard - Login</title>
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <div class="login-container">
+        <h1>Login to Hush Bot Dashboard</h1>
+        <p>Manage your server settings, welcome messages, and more.</p>
+        <!-- Link for OAuth2 Discord Login -->
+        <a href="https://discord.com/oauth2/authorize?client_id=1231284260963483748&response_type=code&redirect_uri=https%3A%2F%2Fcodehush.com%2Fhushbot%2Fauth%2Flogin&scope=guilds+identify" class="login-btn">Login with Discord</a>
+    </div>
+
+    <script>
+        // Check if access token is present in the URL
+        const hash = window.location.hash;
+        if (hash.includes("access_token")) {
+            // Redirect to dashboard.html if access token is found
+            window.location.href = "https://codehush.com/hushbot/dashboard" + hash;
+        }
+    </script>
+</body>
+</html>
