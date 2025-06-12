@@ -1,0 +1,117 @@
+.link a:hover {
+  color: #000;
+}
+
+:root {
+  --bg-color: #081b29;
+  --second-bg-color: #112e42;
+  --text-color: #ededed;
+  --main-color: #00abf0;
+  --stars-color: #ff523b;
+}
+/* HEADER BEGINNING */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #03001e;
+}
+
+/* Terms and Conditions */
+
+.terms-body {
+  color: white;
+  line-height: 1.7em;
+}
+
+.terms-body h1 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  color: white;
+}
+
+.terms-body .t-text {
+  margin: 0 auto 360px auto;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.terms-body .space-1 {
+  margin-top: 20px;
+}
+.terms-body .space-2 {
+  margin-top: 50px;
+}
+@media (max-width: 1496px) {
+  .terms-body .t-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1300px) {
+  .terms-body .t-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1100px) {
+  .terms-body .t-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1030px) {
+  .terms-body .t-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .terms-body .t-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 580px) {
+  .terms-body .t-text {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+}
+
+@media (max-width: 512px) {
+  .terms-body .t-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 425px) {
+  .terms-body .t-text {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (max-width: 390px) {
+  .terms-body .t-text {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 295px) {
+  .terms-body .t-text {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}

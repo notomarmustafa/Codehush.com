@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login Test | Code Hush</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/login.js"></script>
+</head>
+<body class="login">
+
+    <div class="container">
+        <h2 class="text-center">Login</h2>
+        <br>
+        <form action="/rauth/dashboard.html" class="loginForm">
+            <div class="input-group">
+                <label for="username" class="label">Username</label>
+                <input type="text" id="username" class="input" placeholder="Enter Username" autocomplete="off">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <div class="input-group">
+                <label for="password" class="label">Password</label>
+                <input type="password" id="password" class="password" placeholder="Enter Password">
+                <span class="error-message"></span>
+            </div>
+            <br>
+            <button class="button" type="submit">Login</button>
+        </form>
+    </div>
+
+</body>
+</html>
